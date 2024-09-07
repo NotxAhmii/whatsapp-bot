@@ -26,7 +26,7 @@ DEBUG =
 module.exports = {
   VERSION: "v1.2.8",
   SESSION:
-    process.env.ASENA_SESSION === undefined ? "" : process.env.ASENA_SESSION,
+    process.env.ASENA_SESSION === undefined ? "levanter_7aaa47d27293644068a1b334fb255820f" : process.env.ASENA_SESSION,
   EXT: process.env.EXT === undefined ? undefined : process.env.EXT,
   LANG:
     process.env.LANGUAGE === undefined
@@ -82,23 +82,23 @@ module.exports = {
   SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
   DEBUG: DEBUG,
   REMOVEBG:
-    process.env.REMOVEBG_KEY === undefined ? "false" : process.env.REMOVEBG_KEY,
+    process.env.REMOVEBG_KEY === undefined ? "uBrFddbP6isSxsoZnEYaZ9zd" : process.env.REMOVEBG_KEY,
   WARN_COUNT: process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
   WARN_MSG:
     process.env.WARN_MSG === undefined ? "Ok bie" : process.env.WARN_MSG,
   ANTIJID: process.env.ANTIJID === undefined ? "" : process.env.ANTIJID,
   STICKER_PACKNAME:
     process.env.STICKER_PACKNAME === undefined
-      ? "🥰,lyfe00011"
+      ? "Ahmii_Sticker_Zone"
       : process.env.STICKER_PACKNAME,
-  BRAINSHOP:
-    process.env.BRAINSHOP === undefined
-      ? "159501,6pq8dPiYt7PdqHz3"
+  Ahmii:
+    process.env.Ahmii === undefined
+      ? "ahmii_+923257729731"
       : process.env.BRAINSHOP,
   DIS_BOT:
     process.env.DISABLE_BOT === undefined ? "null" : process.env.DISABLE_BOT,
   FIND_API_KEY:
     process.env.FIND_API_KEY === undefined
-      ? "null"
+      ? "3_4_f7c5_29dd_c03d"
       : process.env.FIND_API_KEY,
 }
